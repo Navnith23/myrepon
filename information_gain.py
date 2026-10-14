@@ -3,7 +3,7 @@ import math
 df = pd.read_csv('data.csv')
 
 def entropy(data):
-    total = len(df)
+    total = len(data)
     counts = data.value_counts()
     result = 0
     for count in counts:
